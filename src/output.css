@@ -215,6 +215,9 @@
   .h-\[42px\] {
     height: 42px;
   }
+  .h-\[50px\] {
+    height: 50px;
+  }
   .h-\[65\.25\] {
     height: 65.25;
   }
@@ -241,6 +244,12 @@
   }
   .h-\[660px\] {
     height: 660px;
+  }
+  .h-\[px\] {
+    height: px;
+  }
+  .h-px {
+    height: 1px;
   }
   .w-\[9\] {
     width: 9;
@@ -338,6 +347,9 @@
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
   .justify-self-start {
     justify-self: flex-start;
   }
@@ -409,14 +421,27 @@
   .text-\[12px\] {
     font-size: 12px;
   }
+  .text-\[14px\] {
+    font-size: 14px;
+  }
   .text-\[18px\] {
     font-size: 18px;
+  }
+  .text-\[19px\] {
+    font-size: 19px;
+  }
+  .text-\[20px\] {
+    font-size: 20px;
   }
   .text-\[24px\] {
     font-size: 24px;
   }
   .text-\[48px\] {
     font-size: 48px;
+  }
+  .leading-2 {
+    --tw-leading: calc(var(--spacing) * 2);
+    line-height: calc(var(--spacing) * 2);
   }
   .leading-3 {
     --tw-leading: calc(var(--spacing) * 3);
@@ -455,6 +480,9 @@
   }
   .text-\[\#F8F9FA\] {
     color: #F8F9FA;
+  }
+  .text-\[px\] {
+    color: px;
   }
   .text-white {
     color: var(--color-white);
